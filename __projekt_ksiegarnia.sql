@@ -47,8 +47,6 @@ cena DECIMAL(5,2),
 id_typ INT
 );
 
-ALTER TABLE towar
-MODIFY cena DECIMAL(5,2);
 
 CREATE TABLE Magazyn
 (
