@@ -230,6 +230,63 @@ INSERT INTO magazyn (ilosc,id_towaru) VALUES
 (0,52),
 (0,53);
 
+#lub
+
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,1);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(10,2);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(15,3);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(30,4);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(12,5);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(16,6);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(17,7);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(47,8);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(9,9);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(3,10);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(9,11);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(20,12);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(11,13);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(19,14);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(21,15);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(10,16);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(16,17);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(13,18);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(19,19);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(20,20);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(5,21);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(3,22);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(9,23);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(8,24);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,25);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(3,26);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(4,27);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(13,28);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(15,29);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(21,30);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(31,31);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(34,32);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(29,33);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(25,34);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(32,35);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(27,36);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,37);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(3,38);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(5,39);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(37,40);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,41);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(11,42);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(13,43);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,44);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(19,45);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,46);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(9,47);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(7,48);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(18,49);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(3,50);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(2,51);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(0,52);
+INSERT INTO magazyn (ilosc,id_towaru) VALUES(0,53);
+
+
 INSERT INTO sprzedaz (data_sprzedazy,id_towar,id_pracownik,id_klient) VALUES
 ('1969-06-26',11,1,1),
 ('1969-12-16',43,1,1),
