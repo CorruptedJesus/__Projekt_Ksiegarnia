@@ -378,7 +378,7 @@ END
 //
 DELIMITER ;
 
-#CALL cena(53,49.9)
+#CALL cena(1,49.9)
 
 DELIMITER //
 CREATE FUNCTION ile_towarow()
