@@ -1,4 +1,4 @@
-CREATE TABLE Klient
+CREATE TABLE klient
 (
 id_klient INT(4) PRIMARY KEY AUTO_INCREMENT,
 imie VARCHAR(50),
@@ -9,7 +9,7 @@ nr_tel CHAR(9),
 id_plec INT(4)
 );
 
-CREATE TABLE Pracownik
+CREATE TABLE pracownik
 (
 id_pracownik INT PRIMARY KEY AUTO_INCREMENT,
 imie VARCHAR(50),
@@ -20,7 +20,7 @@ id_zarobki INT,
 id_plec INT
 );
 
-CREATE TABLE Plec
+CREATE TABLE plec
 (
 id_plec INT PRIMARY KEY AUTO_INCREMENT,
 plec ENUM('kobieta','mezczyzna')
@@ -32,13 +32,13 @@ id_zarobki INT PRIMARY KEY AUTO_INCREMENT,
 zarobki INT(5)
 );
 
-CREATE TABLE Typ
+CREATE TABLE typ
 (
 id_typ INT PRIMARY KEY AUTO_INCREMENT,
 typ ENUM('ksiazka', 'e-book','audiobook')
 );
 
-CREATE TABLE Towar
+CREATE TABLE towar
 (
 id_towar INT PRIMARY KEY AUTO_INCREMENT,
 tytul VARCHAR(100),
@@ -48,14 +48,15 @@ id_typ INT
 );
 
 
-CREATE TABLE Magazyn
+
+CREATE TABLE magazyn
 (
 id_magazyn INT PRIMARY KEY AUTO_INCREMENT,
 ilosc INT,
 id_towaru INT
 );
 
-CREATE TABLE Sprzedaz
+CREATE TABLE sprzedaz
 (
 id_sprzedaz INT PRIMARY KEY AUTO_INCREMENT,
 data_sprzedazy DATE,
